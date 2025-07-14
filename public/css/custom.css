@@ -1,0 +1,294 @@
+/* =====================
+   Root Variables
+   ===================== */
+:root {
+  --font-main: 'JetBrains Mono', 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  --font-secondary: 'JetBrains Mono', 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  --background-color: #1a1a2e;
+  --heading-color: #e6e6fa;
+  --text-color: #d8d8f6;
+  --link-color: #b19cd9;
+  --visited-color: #9b7bb8;
+  --code-background-color: #2d2d44;
+  --code-color: #e6e6fa;
+  --blockquote-color: #b19cd9;
+  --title-top: 50vh;
+  --author-spacing: 2.5rem;
+  --subtitle-spacing: 1rem;
+}
+
+/* =====================
+   Typography & Base
+   ===================== */
+body {
+  font-family: var(--font-secondary);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+code, time {
+  font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+  font-size: 0.9em;
+}
+
+/* =====================
+   Poem Layout
+   ===================== */
+.poem {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  position: relative;
+  min-height: 100vh;
+  font-size: 1.2rem;
+}
+
+.poem-small { max-width: 500px; }
+.poem-large { max-width: 700px; }
+
+.poem-header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background: var(--background-color);
+  margin-bottom: 0;
+  padding: 0;
+  padding-top: 30vh;
+}
+
+.poem-title {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+  color: var(--heading-color);
+  text-align: center;
+  word-break: keep-all;
+  hyphens: none;
+  overflow-wrap: normal;
+}
+
+.poem-author {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: -0.5rem 0;
+  color: var(--link-color);
+  text-align: center;
+}
+
+.poem-subtitle {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: var(--text-color);
+  opacity: 0.8;
+  text-align: center;
+}
+
+.poem-content {
+  margin-bottom: 1rem;
+  text-align: left;
+  line-height: 1.75;
+}
+
+.poem-content p {
+  margin: 0.3rem 0;
+  text-indent: -2em;
+  padding-left: 2em;
+}
+
+.poem-footer {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.poem-meta {
+  text-align: right;
+}
+
+.poem-place, .poem-date {
+  display: inline;
+  text-align: right;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.poem-separator {
+  display: inline;
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+
+.poem-nav {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.poem-home-link {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  opacity: 0.7;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  display: inline-block;
+  text-align: left;
+  margin-left: 0;
+}
+.poem-home-link:hover {
+  opacity: 1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.poem-traduction {
+  text-align: left;
+  opacity: 0.5;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ===============
+   Poem Animation
+   =============== */
+.poem::after {
+  content: '';
+  position: absolute;
+  top: calc(90vh);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid var(--text-color);
+  opacity: 0.6;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+  40% { transform: translateX(-50%) translateY(-10px); }
+  60% { transform: translateX(-50%) translateY(-5px); }
+}
+
+/* ===============
+   Home Page Styles
+   =============== */
+body h1 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.index-poem {
+  font-size: 1.35rem;
+  line-height: 1.7;
+  color: var(--heading-color);
+  text-align: center;
+  margin: 3rem auto 2rem auto;
+  max-width: 700px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+main blockquote,
+.content blockquote,
+.poem blockquote {
+  font-size: 1.6rem;
+  line-height: 1.65;
+  color: var(--heading-color);
+  text-align: left;
+  max-width: 800px;
+  font-style: normal;
+  opacity: 0.8;
+  border: none;
+  background: none;
+  box-shadow: none;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+  margin-top: 35vh;
+  margin-bottom: 45vh;
+}
+
+main blockquote::after {
+  content: '';
+  position: absolute;
+  top: calc(90vh);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid var(--text-color);
+  opacity: 0.6;
+  animation: bounce 2s infinite;
+}
+
+.index-poem-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.index-poem-center blockquote {
+  margin: 0 auto;
+}
+
+/* ===============
+   Responsive
+   =============== */
+@media (max-width: 768px) {
+  .poem-title { font-size: 2.5rem; }
+  .poem-content { font-size: 1rem; }
+}
+
+/* ===============
+   Links & List Styles
+   =============== */
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body.home main a,
+body.home .content a {
+  font-size: 1rem;
+  line-height: 2.2;
+  font-weight: 500;
+}
+
+body a[href^="/"] {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+body a[href^="/"]:hover {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 800;
+}
+
+.poem-list-title {
+  font-family: monospace;
+}
+
+.poem-list a {
+  display: block;
+  margin-bottom: 0.2rem;
+} 

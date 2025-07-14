@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poèmes</title>
+    <link>https://example.com/</link>
+    <description>Recent content on poèmes</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;Peut-être est-ce le point de démence…&#34;</title>
+      <link>https://example.com/demence-mandelstam-1937/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/demence-mandelstam-1937/</guid>
+      <description>&lt;p&gt;Peut-être est-ce le point de démence,&lt;/p&gt;&#xA;&lt;p&gt;Ou alors ta conscience peut-être :&lt;/p&gt;&#xA;&lt;p&gt;Nœud vital de la reconnaissance&lt;/p&gt;&#xA;&lt;p&gt;Et lieu où l&amp;rsquo;on te dénoue pour être.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Ainsi les cristaux de vie suprême,&lt;/p&gt;&#xA;&lt;p&gt;Un clair rayon-araignée s&amp;rsquo;applique&lt;/p&gt;&#xA;&lt;p&gt;À disloquer leurs facettes fermes,&lt;/p&gt;&#xA;&lt;p&gt;Puis les rassemble en faisceau unique.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Reconnaissantes, les lignes pures&lt;/p&gt;&#xA;&lt;p&gt;Que le doux rayon veut orienter&lt;/p&gt;&#xA;&lt;p&gt;Se retrouveront un jour futur,&lt;/p&gt;&#xA;&lt;p&gt;Tels des hôtes au front dégagé.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Non pas au ciel mais ici sur terre,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Méditerranée</title>
+      <link>https://example.com/mediterranee-senghor-1938/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/mediterranee-senghor-1938/</guid>
+      <description>&lt;p&gt;Et je redis ton nom : Dyallo !&lt;/p&gt;&#xA;&lt;p&gt;Ta main et ma main qui s&amp;rsquo;attarde ; et nos pensées se cherchèrent dans la mi-nuit de nos deux langues sœurs.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;C&amp;rsquo;était en Méditerranée, nombril des races claires, bleue comme jamais océan n&amp;rsquo;ont vu mes yeux&lt;/p&gt;&#xA;&lt;p&gt;Qui souriait de ses millions de lèvres de lumière&lt;/p&gt;&#xA;&lt;p&gt;Tandis que dix vaisseaux de ligne inflexible, telles des bouches minces, bombardaient Almeria et qu&amp;rsquo;éclataient&lt;/p&gt;&#xA;&lt;p&gt;Éclaboussant de sang de cervelle les murs noirs, comme des grenades, des têtes ardentes d&amp;rsquo;enfants.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

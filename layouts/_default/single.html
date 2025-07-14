@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article class="poem{{ with .Params.poem_width }} poem-{{ . }}{{ end }}">
+  <header class="poem-header">
+    <h1 class="poem-title">{{ .Title }}</h1>
+    {{ if .Params.author }}
+    <p class="poem-author">{{ .Params.author }}</p>
+    {{ end }}
+    {{ if .Params.subtitle }}
+    <p class="poem-subtitle">{{ .Params.subtitle }}</p>
+    {{ end }}
+  </header>
+
+  <div class="poem-content">
+    {{ .Content }}
+  </div>
+  <footer class="poem-footer">
+    <div class="poem-meta">
+      {{ if .Params.place }}
+      <span class="poem-place">{{ .Params.place }}</span>
+      {{ if .Params.poem_date }}
+      <span class="poem-separator"> • </span>
+      {{ end }}
+      {{ end }}
+      {{ if .Params.poem_date }}
+      <span class="poem-date">{{ .Params.poem_date }}</span>
+      {{ end }}
+    </div>
+    {{ if .Params.traduction }}
+      <div class="poem-traduction">{{ .Params.traduction }}</div>
+    {{ end }}
+    <div class="poem-nav">
+      <a href="/" class="poem-home-link">&#x25C0; Retour</a>
+    </div>
+  </footer>
+</article>
+{{ end }} 

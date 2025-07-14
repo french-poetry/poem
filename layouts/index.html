@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ .Content }}
+  <div class="poem-list">
+    {{ range where .Site.RegularPages "Section" "" }}
+      <a href="{{ .RelPermalink }}">
+        <span class="poem-list-title">{{ .Title }}</span> <span style="font-size:1.1em;vertical-align:middle;">&bull;</span> <strong>{{ .Params.author }}</strong> 
+      </a>
+    {{ end }}
+  </div>
+{{ end }} 
