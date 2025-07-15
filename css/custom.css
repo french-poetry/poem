@@ -65,11 +65,11 @@ code, time {
 }
 
 .poem-title {
-  max-width: 650px;
+
   margin: 0 auto;
   font-size: 3.25rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.1;
   letter-spacing: 0.025em;
   color: var(--heading-color);
   text-align: center;
@@ -81,16 +81,9 @@ code, time {
 .poem-author {
   font-size: 1.5rem;
   font-style: italic;
-  margin: -0.5rem 0;
+  margin: 0rem 0;
+  line-height: 2;
   color: var(--link-color);
-  text-align: center;
-}
-
-.poem-subtitle {
-  font-size: 1.1rem;
-  margin: 0.5rem 0;
-  color: var(--text-color);
-  opacity: 0.8;
   text-align: center;
 }
 
