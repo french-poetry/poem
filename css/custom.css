@@ -176,6 +176,24 @@ code, time {
   60% { transform: translateX(-50%) translateY(-5px); }
 }
 
+.poem-scroll-down {
+  position: absolute;
+  top: calc(90vh - 24px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  color: transparent;
+  outline: none;
+}
+.poem-scroll-down:focus {
+  outline: 2px solid var(--link-color);
+}
+
 /* ===============
    Home Page Styles
    =============== */
