@@ -64,7 +64,6 @@ code, time {
   align-items: center;
   justify-content: flex-start;
   height: 100vh;
-  background: var(--background-color);
   margin-bottom: 0;
   padding: 0;
   padding-top: 30vh;
