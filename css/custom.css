@@ -15,6 +15,10 @@
   --title-top: 50vh;
   --author-spacing: 2.5rem;
   --subtitle-spacing: 1rem;
+  /* Cursor spotlight variables */
+  --cursor-x: 50vw;
+  --cursor-y: 50vh;
+  --spotlight-size: 160px;
 }
 
 /* =====================
@@ -23,6 +27,8 @@
 body {
   font-family: var(--font-secondary);
   line-height: 1.6;
+  /* Ensure blend modes compute against page background correctly */
+  isolation: isolate;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -303,3 +309,28 @@ body a[href^="/"]:hover {
   display: block;
   margin-bottom: 0.2rem;
 } 
+
+/* ===============
+   Cursor Spotlight
+   =============== */
+body::before {
+  content: '';
+  position: fixed;
+  left: calc(var(--cursor-x) - var(--spotlight-size) / 2);
+  top: calc(var(--cursor-y) - var(--spotlight-size) / 2);
+  width: var(--spotlight-size);
+  height: var(--spotlight-size);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  background: radial-gradient(circle at center,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 55%,
+    rgba(255, 255, 255, 0.9) 65%,
+    rgba(255, 255, 255, 0) 75%);
+}
+
+@media (hover: none) and (pointer: coarse) {
+  body::before { display: none; }
+}
