@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://example.com/demence-mandelstam-1937/</loc>
+    <loc>http://localhost:1313/nuit-akhmatova-1959/</loc>
   </url><url>
-    <loc>https://example.com/mediterranee-senghor-1938/</loc>
+    <loc>http://localhost:1313/demence-mandelstam-1937/</loc>
+  </url><url>
+    <loc>http://localhost:1313/joie-careme-1967/</loc>
+  </url><url>
+    <loc>http://localhost:1313/lieu-chedid-1960/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mediterranee-senghor-1938/</loc>
   </url>
 </urlset>

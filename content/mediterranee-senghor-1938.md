@@ -3,6 +3,7 @@ draft = false
 title = 'Méditerranée'
 author = 'Léopold Sédar Senghor'
 place = 'Dakar'
+traduction = 'Poèmes'
 poem_date = '1938'
 poem_width = 'large'
 +++

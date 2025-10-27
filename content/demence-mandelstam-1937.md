@@ -3,7 +3,7 @@ draft = false
 title = '"Peut-être est-ce le point de démence…"'
 author = 'Ossip Mandelstam'
 poem_date = '15 mars 1937'
-traduction = "Traduction du Russe par Henri Abril (1999)"
+traduction = "Traduction du Russe par Henri Abril - 1999"
 poem_width = 'small'
 +++
 

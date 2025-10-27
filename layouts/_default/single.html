@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article class="poem{{ with .Params.poem_width }} poem-{{ . }}{{ end }}">
+  <button class="poem-scroll-down" aria-label="Descendre d'une page"></button>
   <header class="poem-header">
     <h1 class="poem-title">{{ .Title }}</h1>
     {{ if .Params.author }}
@@ -29,7 +30,7 @@
       <div class="poem-traduction">{{ .Params.traduction }}</div>
     {{ end }}
     <div class="poem-nav">
-      <a href="/" class="poem-home-link">&#x25C0; Retour</a>
+        <a href="{{ "/poem/" | relURL }}" class="poem-home-link">&#x25C0; Retour</a>
     </div>
   </footer>
 </article>

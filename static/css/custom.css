@@ -15,6 +15,10 @@
   --title-top: 50vh;
   --author-spacing: 2.5rem;
   --subtitle-spacing: 1rem;
+  /* Cursor spotlight variables */
+  --cursor-x: 50vw;
+  --cursor-y: 50vh;
+  --spotlight-size: 80px;
 }
 
 /* =====================
@@ -23,6 +27,8 @@
 body {
   font-family: var(--font-secondary);
   line-height: 1.6;
+  /* Ensure blend modes compute against page background correctly */
+  isolation: isolate;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,18 +64,17 @@ code, time {
   align-items: center;
   justify-content: flex-start;
   height: 100vh;
-  background: var(--background-color);
   margin-bottom: 0;
   padding: 0;
   padding-top: 30vh;
 }
 
 .poem-title {
-  max-width: 650px;
+
   margin: 0 auto;
   font-size: 3.25rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.1;
   letter-spacing: 0.025em;
   color: var(--heading-color);
   text-align: center;
@@ -81,16 +86,9 @@ code, time {
 .poem-author {
   font-size: 1.5rem;
   font-style: italic;
-  margin: -0.5rem 0;
+  margin: 0rem 0;
+  line-height: 2;
   color: var(--link-color);
-  text-align: center;
-}
-
-.poem-subtitle {
-  font-size: 1.1rem;
-  margin: 0.5rem 0;
-  color: var(--text-color);
-  opacity: 0.8;
   text-align: center;
 }
 
@@ -181,6 +179,24 @@ code, time {
   0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
   40% { transform: translateX(-50%) translateY(-10px); }
   60% { transform: translateX(-50%) translateY(-5px); }
+}
+
+.poem-scroll-down {
+  position: absolute;
+  top: calc(90vh - 24px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  color: transparent;
+  outline: none;
+}
+.poem-scroll-down:focus {
+  outline: 2px solid var(--link-color);
 }
 
 /* ===============
@@ -292,3 +308,28 @@ body a[href^="/"]:hover {
   display: block;
   margin-bottom: 0.2rem;
 } 
+
+/* ===============
+   Cursor Spotlight
+   =============== */
+body::before {
+  content: '';
+  position: fixed;
+  left: calc(var(--cursor-x) - var(--spotlight-size) / 2);
+  top: calc(var(--cursor-y) - var(--spotlight-size) / 2);
+  width: var(--spotlight-size);
+  height: var(--spotlight-size);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  background: radial-gradient(circle at center,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 55%,
+    rgba(255, 255, 255, 0.9) 65%,
+    rgba(255, 255, 255, 0) 75%);
+}
+
+@media (hover: none) and (pointer: coarse) {
+  body::before { display: none; }
+}

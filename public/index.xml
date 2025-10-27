@@ -2,23 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>poèmes</title>
-    <link>https://example.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on poèmes</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;Cette nuit-là...&#34;</title>
+      <link>http://localhost:1313/nuit-akhmatova-1959/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nuit-akhmatova-1959/</guid>
+      <description>&lt;p&gt;Cette nuit-là, l&amp;rsquo;un par l&amp;rsquo;autre, nous sommes devenus fous.&lt;/p&gt;&#xA;&lt;p&gt;Seule brillait pour nous une obscurité malveillante.&lt;/p&gt;&#xA;&lt;p&gt;Les petits canaux parlaient leur langage&lt;/p&gt;&#xA;&lt;p&gt;Et les oeillets sentaient bon l&amp;rsquo;Asie.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Nous traversions une ville étrangère;&lt;/p&gt;&#xA;&lt;p&gt;Chanson de brume et touffeur de minuit,&lt;/p&gt;&#xA;&lt;p&gt;Seuls, sous les étoiles du Serpent,&lt;/p&gt;&#xA;&lt;p&gt;N&amp;rsquo;osant pas nous regarder l&amp;rsquo;un l&amp;rsquo;autre.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;C&amp;rsquo;était Istanbul, peut-être, ou Bagdad,&lt;/p&gt;&#xA;&lt;p&gt;Mais, hélas, ni Varsovie, ni Léningrad,&lt;/p&gt;&#xA;&lt;p&gt;Et cette amère dissemblance&lt;/p&gt;&#xA;&lt;p&gt;Nous étouffait comme l&amp;rsquo;air que réspire un orphelin.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>&#34;Peut-être est-ce le point de démence…&#34;</title>
-      <link>https://example.com/demence-mandelstam-1937/</link>
+      <link>http://localhost:1313/demence-mandelstam-1937/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/demence-mandelstam-1937/</guid>
+      <guid>http://localhost:1313/demence-mandelstam-1937/</guid>
       <description>&lt;p&gt;Peut-être est-ce le point de démence,&lt;/p&gt;&#xA;&lt;p&gt;Ou alors ta conscience peut-être :&lt;/p&gt;&#xA;&lt;p&gt;Nœud vital de la reconnaissance&lt;/p&gt;&#xA;&lt;p&gt;Et lieu où l&amp;rsquo;on te dénoue pour être.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Ainsi les cristaux de vie suprême,&lt;/p&gt;&#xA;&lt;p&gt;Un clair rayon-araignée s&amp;rsquo;applique&lt;/p&gt;&#xA;&lt;p&gt;À disloquer leurs facettes fermes,&lt;/p&gt;&#xA;&lt;p&gt;Puis les rassemble en faisceau unique.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Reconnaissantes, les lignes pures&lt;/p&gt;&#xA;&lt;p&gt;Que le doux rayon veut orienter&lt;/p&gt;&#xA;&lt;p&gt;Se retrouveront un jour futur,&lt;/p&gt;&#xA;&lt;p&gt;Tels des hôtes au front dégagé.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Non pas au ciel mais ici sur terre,&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Méditerranée</title>
-      <link>https://example.com/mediterranee-senghor-1938/</link>
+      <title>Joie...</title>
+      <link>http://localhost:1313/joie-careme-1967/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/mediterranee-senghor-1938/</guid>
+      <guid>http://localhost:1313/joie-careme-1967/</guid>
+      <description>&lt;p&gt;Joie de je ne sais quoi,&lt;/p&gt;&#xA;&lt;p&gt;Joie du vent, joie de la feuille,&lt;/p&gt;&#xA;&lt;p&gt;Joie flamme d’écureuil,&lt;/p&gt;&#xA;&lt;p&gt;Joie de myrtille au bois.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Joie d’être un peu de givre&lt;/p&gt;&#xA;&lt;p&gt;Sur la branche au printemps,&lt;/p&gt;&#xA;&lt;p&gt;Joie de ne jamais suivre&lt;/p&gt;&#xA;&lt;p&gt;Que les chemins montants.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Joie d’être tout à coup,&lt;/p&gt;&#xA;&lt;p&gt;Sans même le vouloir,&lt;/p&gt;&#xA;&lt;p&gt;Cet appel de coucou,&lt;/p&gt;&#xA;&lt;p&gt;Ce reflet de miroir.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Ne pouvoir que crier,&lt;/p&gt;&#xA;&lt;p&gt;Crier, crier encor&lt;/p&gt;&#xA;&lt;p&gt;Des mots comme un pont d’or&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Le lieu fidèle</title>
+      <link>http://localhost:1313/lieu-chedid-1960/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lieu-chedid-1960/</guid>
+      <description>&lt;p&gt;Je cherche le lieu fidèle, la trame,&lt;/p&gt;&#xA;&lt;p&gt;Le secret des secrets à senteur d’océan,&lt;/p&gt;&#xA;&lt;p&gt;Le matin insensé où les ruisseaux foisonnent,&lt;/p&gt;&#xA;&lt;p&gt;La lueur rebelle et la fleur du temps.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Mais viens, affrontons les fugitives détresses&lt;/p&gt;&#xA;&lt;p&gt;Et sans arme dispersons la vie en ses couleurs.&lt;/p&gt;&#xA;&lt;p&gt;Et d’images en défaites,&lt;/p&gt;&#xA;&lt;p&gt;Nous sommes les témoins&lt;/p&gt;&#xA;&lt;p&gt;De je ne sais quelle splendeur ?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Méditerranée</title>
+      <link>http://localhost:1313/mediterranee-senghor-1938/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mediterranee-senghor-1938/</guid>
       <description>&lt;p&gt;Et je redis ton nom : Dyallo !&lt;/p&gt;&#xA;&lt;p&gt;Ta main et ma main qui s&amp;rsquo;attarde ; et nos pensées se cherchèrent dans la mi-nuit de nos deux langues sœurs.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;C&amp;rsquo;était en Méditerranée, nombril des races claires, bleue comme jamais océan n&amp;rsquo;ont vu mes yeux&lt;/p&gt;&#xA;&lt;p&gt;Qui souriait de ses millions de lèvres de lumière&lt;/p&gt;&#xA;&lt;p&gt;Tandis que dix vaisseaux de ligne inflexible, telles des bouches minces, bombardaient Almeria et qu&amp;rsquo;éclataient&lt;/p&gt;&#xA;&lt;p&gt;Éclaboussant de sang de cervelle les murs noirs, comme des grenades, des têtes ardentes d&amp;rsquo;enfants.&lt;/p&gt;</description>
     </item>
   </channel>
